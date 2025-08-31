@@ -33,11 +33,18 @@ const PostCard = () => {
           playsInline
           autoPlay
           preload="auto"
-          src="/videos/postcard-vd.mp4"
+          src="/videos/0831.mp4"
         />
 
         <button className="group-hover:bg-yellow transation duration-700">
-          Explore Leonida Keys
+          <a
+          href="https://alarcz.cz/en/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 text-black rounded-lg hover:bg-yellow-100 transition duration-700"
+          >
+          Explore AlarCZ
+          </a>
         </button>
       </div>
     </section>
